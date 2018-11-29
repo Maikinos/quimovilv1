@@ -28,3 +28,6 @@ function toggleChevron(e) {
 
         $('#accordion').on('hidden.bs.collapse', toggleChevron);
         $('#accordion').on('shown.bs.collapse', toggleChevron);
+
+var compartirwhastsapp = $('.listado-productos').html();    
+$('#comparte-ws').attr('href','whatsapp://send?text=' + compartirwhastsapp);
