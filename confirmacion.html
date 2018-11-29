@@ -143,5 +143,14 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- myjs-->
     <script src="js/min.js"></script>
+
+    <script type="text/javascript">
+
+      window.onload = function() {
+  var compartirwhastsapp = $('.listado-productos').html();    
+$('#comparte-ws').attr('href','whatsapp://send?text=' + compartirwhastsapp);
+};
+      
+    </script>
   </body>
 </html>
